@@ -1,6 +1,9 @@
 import _ from 'lodash';
 import './style.css';
 import NotIeImgSrc from './not_ie.png'
+import DataXml from './data.xml';
+import DataCsv from './data.csv';
+
 function component(){
     const element=document.createElement('div');
     // lodash 在当前 script 中使用 import 引入
@@ -12,6 +15,9 @@ function component(){
     myImage.src=NotIeImgSrc;
     element.appendChild(myImage);
 
+    console.log('DataXml',DataXml);
+    console.log('DataCsv',DataCsv);
+    
     return element;
 }
 document.body.appendChild(component());
