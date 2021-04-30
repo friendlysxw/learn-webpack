@@ -3,6 +3,18 @@ import './style.css';
 import NotIeImgSrc from './not_ie.png'
 import DataXml from './data.xml';
 import DataCsv from './data.csv';
+import toml from './data.toml';
+import yaml from './data.yaml';
+import json5 from './data.json5';
+
+console.log('toml.title:',toml.title);
+console.log('toml.owner.name:',toml.owner.name);
+
+console.log('yaml.title:',yaml.title);
+console.log('yaml.owner.name:',yaml.owner.name);
+
+console.log('json5.title:',json5.title);
+console.log('json5.owner.name:',json5.owner.name);
 
 function component(){
     const element=document.createElement('div');
