@@ -7,6 +7,7 @@
     "build": "webpack"
   },
   "devDependencies": {
+    "html-webpack-plugin": "^5.3.1",
     "webpack": "^5.36.1",
     "webpack-cli": "^4.6.0"
   },
