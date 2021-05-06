@@ -5,7 +5,7 @@ function component(){
     const element=document.createElement('div');
     const btn = document.createElement('button');
 
-    element.innerHTML = _.join(['Hello','webpack',' 小兔兔那么可爱 '],'');
+    element.innerHTML = _.join(['Hello','webpack',' 小兔兔那么可爱 ','怎么可以吃兔兔'],'');
 
     btn.innerHTML = '单击我并检查控制台!';
     btn.onclick = printMe;
